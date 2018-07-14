@@ -14,7 +14,9 @@ Run as `Rscript PAM/PAM_genes.R dataset_path`. This script returns a list of the
 utils scripts credits to https://github.com/cran/pamr/tree/master/R
 
 # Classification to Nearest Centroids (ClaNC) 
+Run as `Rscript ClaNC/clanc_genes.R number_classes samples`. This script returns a list of the most relevant genes according to our analysis. `dataset_path` is the path of the dataset, `number_classes` is the number of classes for classification and `samples` is the number of samples in the dataset.
 
+utils scripts credits to https://rdrr.io/github/naikai/sake/src/R/clanc.R
 
 # Proportional Overlapping Score (POS)
 Run as `Rscript POS/POS_genes.R dataset_path class_path genes_path`. This script returns a list of the most relevant genes according to our analysis. `dataset_path` is the path of the dataset, `class_path` is the path of the file composed of the classes of each sample and `genes_path` is the path of the file composed of all genes present in the dataset, respectively.
